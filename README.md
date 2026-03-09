@@ -1,16 +1,43 @@
-# React + Vite
+# Dashboard de Serviços – Projeto React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém um projeto educacional desenvolvido durante as aulas do curso de React ministrado por **Hudson Neves**. O objetivo deste projeto é ajudar alunos iniciantes a compreender os fundamentos do React de maneira prática, utilizando um projeto simples, organizado e progressivo.
 
-Currently, two official plugins are available:
+O projeto consiste em um **Dashboard de Serviços**, onde apresentamos diferentes serviços através de componentes reutilizáveis. Durante o desenvolvimento, os alunos aprendem conceitos fundamentais como criação de componentes, uso de props, organização de pastas e renderização dinâmica de dados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎯 Objetivo do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo principal é ensinar a construção de uma interface funcional que apresenta serviços em formato de cartões. A proposta pedagógica foca não apenas no código, mas nas decisões de estrutura e organização profissional.
 
-## Expanding the ESLint configuration
+**Principais aprendizados:**
+* Como iniciar um projeto React com Vite.
+* Estruturação de pastas profissional.
+* Criação de componentes reutilizáveis.
+* Comunicação entre componentes via **Props**.
+* Renderização de listas dinâmicas com `map()`.
+* Versionamento de código com Git e GitHub.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tecnologias Utilizadas
+
+* **React** (Biblioteca principal)
+* **Vite** (Ferramenta de build rápida)
+* **JavaScript (ES6+)**
+* **CSS3**
+* **Git & GitHub**
+
+---
+
+## 📂 Estrutura do Projeto
+
+A organização foi pensada para facilitar a escalabilidade e manutenção do código:
+
+```text
+src
+ ├── components      # Componentes menores e reutilizáveis (Ex: CardServico)
+ ├── sections        # Seções maiores que agrupam componentes (Ex: Servicos)
+ ├── styles          # Arquivos de estilização CSS
+ ├── App.jsx         # Componente principal
+ └── main.jsx        # Ponto de entrada da aplicação
